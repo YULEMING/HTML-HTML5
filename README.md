@@ -150,7 +150,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repellendus si
 *   [# is for the same page](#)
 *   [# is for the same page](#)
 
-Here is a <nav>. We can grab onto this within CSS and style it.</nav>
+Here is a \<nav>. We can grab onto this within CSS and style it.</nav>
 
 </aside>
 
