@@ -136,7 +136,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repellendus si
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repellendus sint quos similique odio saepe nisi ea, vero corrupti ad commodi, autem quae veritatis itaque praesentium explicabo, asperiores neque accusamus.
 
-[tag <a> here](post.html)</article>
+[tag \<a> here](post.html)</article>
 
 </section>
 
