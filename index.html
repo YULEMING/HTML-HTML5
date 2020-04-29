@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+    </head>
+    <body>
+        <a href="blog.html">Go to HTML5</a>
+        <!-- Headings -->
+        <h1 title="title test">Heading One</h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading Five</h5>
+        <h6>Heading Six</h6>
+
+        <!-- Paragraph -->
+        <p>Lorem <a href="" target="_blank">ipsum dolor</a> sit, amet consectetur adipisicing elit. <strong>Voluptatem</strong> modi ipsum voluptate nam delectus, deserunt enim facilis assumenda numquam, voluptatibus officiis ducimus culpa voluptatum obcaecati corrupti in? Sed, incidunt corporis.</p>
+        <p>Lorem <a href="">ipsum</a> dolor sit, amet <em>consectetur</em> adipisicing elit. Voluptatem modi ipsum voluptate nam delectus, deserunt enim facilis assumenda numquam, voluptatibus officiis ducimus culpa voluptatum obcaecati corrupti in? Sed, incidunt corporis.</p>
+        
+        <!-- Unordered Lists -->
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>li for List</li>
+        </ul>
+
+        <!-- Ordered Lists -->
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>li for List</li>
+        </ol>
+
+        <!-- Tables -->
+        <table>
+            <thead>
+                <tr>
+                    <th align="left">tr is for table row</th>
+                    <th align="left">| th is for table head</th>
+                    <th align="left">| thead is for table head</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>td is for table data</td>
+                    <td>| don't use table for your layout</td>
+                    <td>| use it for tabular data only</td>
+                </tr>
+                <tr>
+                    <td>such as Name Email Age...</td>
+                    <td>| use CSS for your layout</td>
+                    <td>| td 3</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        hr is for horizontal rule
+        <hr>
+        <br>
+        <!-- Forms -->
+        <form action="process.php" method="POST">
+            tag &lt;name&gt; in tag is for server side, using to grab this input text
+            <br>
+            <div>
+                <label for="firstname">First Name</label>
+                <input type="text" size="41" name="firstName" placeholder="placeholder: type here and the text will disappear">
+            </div>
+            <br>
+            div will end with CRLF/LF
+            <br>camel case: firstName<br>
+            <br>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message">label的作用：点击文字或控件都将激活控件</textarea>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type="number" name="age" value="30">
+                tag &lt;value&gt; is for predefined data<br>
+            </div>
+            <br>
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" id="" value="Submit">
+        </form>
+
+        <!-- Button -->
+        <button click="someJavaScriptFunction">Click Me. Used alone with js function.</button>
+
+        <br>
+        <br>
+        <!-- Image -->
+        <a href="https://markdown-here.com/img/icon256.png" target="_blank">
+            <img src="https://markdown-here.com/img/icon256.png" alt="Describe the image">
+        </a>
+
+        <!-- Quotations -->
+        <blockquote cite="Where this quote comes from">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, vitae qui dolorem maiores reprehenderit sit architecto iste quidem in maxime facilis reiciendis, earum impedit? Maxime eligendi fugiat fuga laudantium dolore?
+        </blockquote>
+
+        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+        This ↑↑↑↑↑ is abbr
+
+        <br><br>
+        <p><cite>HTML crash course</cite> by Brad Traversy</p>
+        This ↑↑↑ is cite
+    </body>
+</html>

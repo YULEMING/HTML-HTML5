@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Semantic Tags</title>
+    <meta name="description" content="Used some css here.">
+    <meta name="keywords" content="this is used for searching">
+    <style type="text/css">
+    #main-header{
+        text-align:center;
+        background-color:black;
+        color: white;
+        padding: 10px;
+    }
+
+    #main-footer{
+        text-align: center;
+        font-size: 18px;
+    }
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Here is the header</h1>
+    </header>
+
+    <a href="index.html">Go to HTML</a>
+
+    <section>
+        Here is a section.
+        <article class="post">
+            <h3>Here is an article.</h3>
+            <small>Here is a small. Often used for subcontent</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repellendus sint quos similique odio saepe nisi ea, vero corrupti ad commodi, autem quae veritatis itaque praesentium explicabo, asperiores neque accusamus.</p>
+            <a href="post.html" target="_blank">Read More</a>
+        </article>
+
+        <article class="post">
+            <h3>Here is another article.</h3>
+            <small>Here is a small. Often used for subcontent</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repellendus sint quos similique odio saepe nisi ea, vero corrupti ad commodi, autem quae veritatis itaque praesentium explicabo, asperiores neque accusamus.</p>
+            <a href="post.html" target="_blank">tag &lt;a&gt; here</a>
+        </article>
+    </section>
+
+    <aside>
+        <h3>Here is an aside</h3>
+        <nav>
+            <ul>
+                <li><a href="#"># is for the same page</a></li>
+                <li><a href="#"># is for the same page</a></li>
+                <li><a href="#"># is for the same page</a></li>
+            </ul>
+            Here is a &lt;nav&gt;. We can grab onto this within CSS and style it.
+        </nav>
+    </aside>
+
+    <footer id="main-footer">
+        <p>Here is a footer. &copy; Here is a copy</p>
+    </footer>
+</body>
+</html>
