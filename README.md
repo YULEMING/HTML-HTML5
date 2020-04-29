@@ -74,7 +74,7 @@ hr is for horizontal rule
 
 * * *
 
-<form action="process.php" method="POST">tag <name> in tag is for server side, using to grab this input text  
+<form action="process.php" method="POST">tag \<name> in tag is for server side, using to grab this input text  
 
 <div><label for="firstname">First Name</label> <input type="text" size="41" name="firstName" placeholder="placeholder: type here and the text will disappear"></div>
 
